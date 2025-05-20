@@ -12,7 +12,7 @@ int main() {
     printf("Olá! Em primeiro lugar vamos cadastrar os dados da cidade 1.\n");
 
     printf("Digite a letra inicial do estado da cidade 1: \n");
-    scanf("%c", &inicial1);
+    scanf(" %c", &inicial1);
 
     printf("Digite o código da carta (entre 01 e 04): \n");
     scanf("%d", &codigo1);
@@ -44,10 +44,10 @@ int main() {
     int pontos2;
 
     printf("Digite a letra inicial do estado da cidade 2: \n");
-    scanf("%c", &inicial2);
+    scanf(" %c", &inicial2);
 
     printf("Digite o código da carta (entre 01 e 04): \n");
-    scanf("%d", &codigo2);
+    scanf(" %d", &codigo2);
 
     printf("Digite o nome da cidade 2: \n");
     scanf("%s", &nome2);
@@ -74,7 +74,7 @@ int main() {
     printf("Número de pontos turísticos: %d\n", pontos1);
     printf("\n");
 
-    printf("Carta 2:\n");
+    printf("Carta 2: \n");
     printf("Estado: %c\n", inicial2);
     printf("Código: %c %d\n", inicial2, codigo2);
     printf("Nome da cidade: %s\n", nome2);
